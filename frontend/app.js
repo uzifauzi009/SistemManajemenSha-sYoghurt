@@ -78,7 +78,7 @@ function dashboardTemplate() {
     const outstanding = data.invoices.filter((invoice) => invoice.status !== "Lunas");
     const recent = data.invoices.slice(0, 4);
     return `<section class="welcome-banner">
-        <div class="welcome-copy"><p class="eyebrow">SENANG MELIHAT ANDA KEMBALI</p><h1>Selamat pagi, Rina 👋</h1>
+        <div class="welcome-copy"><p class="eyebrow">SENANG MELIHAT ANDA KEMBALI</p><h1>Selamat pagi, Fauzi👋</h1>
         <p>Ini ringkasan aktivitas SHA'S YOGHURT. Semoga harimu menyenangkan!</p></div><div class="banner-date" id="banner-date"></div>
     </section>
     <section class="stats-grid" aria-label="Ringkasan usaha">
@@ -171,8 +171,8 @@ function salesTemplate() {
 
 function profileTemplate() {
     return `${pageHeading("Profil", "Informasi akun administrator SHA'S YOGHURT.", null, null)}
-        <section class="detail-card"><div class="inventory-cell"><span class="avatar" style="width:48px;height:48px">AR</span><div><h2>Rina Amelia</h2><span class="table-sub">Administrator</span></div></div>
-        <div class="detail-grid"><div class="detail-item"><small>Nama lengkap</small><strong>Rina Amelia</strong></div><div class="detail-item"><small>Username</small><strong>admin01</strong></div><div class="detail-item"><small>Email</small><strong>rina@shasyoghurt.id</strong></div><div class="detail-item"><small>Hak akses</small><strong>Administrator</strong></div></div>
+        <section class="detail-card"><div class="inventory-cell"><span class="avatar" style="width:48px;height:48px">FAK</span><div><h2>Fauzi Awaludin Kamal</h2><span class="table-sub">Administrator</span></div></div>
+        <div class="detail-grid"><div class="detail-item"><small>Nama lengkap</small><strong>Fauzi Awaludin Kamal</strong></div><div class="detail-item"><small>Username</small><strong>admin01</strong></div><div class="detail-item"><small>Email</small><strong>fauzi@shasyoghurt.id</strong></div><div class="detail-item"><small>Hak akses</small><strong>Administrator</strong></div></div>
         <button class="button button-quiet" type="button" data-action="profile-notice">Keluar dari akun</button></section>`;
 }
 
